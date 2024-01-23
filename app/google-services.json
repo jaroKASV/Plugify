@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "310260373536",
+    "project_id": "plugify-eed5e",
+    "storage_bucket": "plugify-eed5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310260373536:android:23a6ab556dc672e4c74445",
+        "android_client_info": {
+          "package_name": "com.example.plugify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADCel6XCi8arZh0sM_yaBINILhobUyAaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310260373536:android:42501e36e818a136c74445",
+        "android_client_info": {
+          "package_name": "com.example.plugifydemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADCel6XCi8arZh0sM_yaBINILhobUyAaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

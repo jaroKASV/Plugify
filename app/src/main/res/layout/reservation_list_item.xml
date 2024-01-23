@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.Material3.CardView.Elevated"
+    app:cardBackgroundColor="@color/plugify_green"
+    app:cardCornerRadius="15sp"
+    app:cardElevation="10sp"
+    android:layout_margin="4sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/reservation_parkLot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="4sp"/>
+
+        <TextView
+            android:id="@+id/reservation_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservation_parkLot"
+            android:layout_marginBottom="4sp"/>
+
+        <TextView
+            android:id="@+id/reservation_timeFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservation_date"
+            android:layout_marginBottom="4sp"/>
+
+        <TextView
+            android:id="@+id/reservation_timeTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservation_timeFrom"
+            android:layout_marginBottom="4sp"/>
+
+        <TextView
+            android:id="@+id/reservation_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reservation_timeTo"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
